@@ -8,7 +8,7 @@ resource "azurerm_app_service_plan" "asp" {
 
   sku {
     tier = "Free"
-    size = "Free"
+    size = "F1"
   }
 }
 
