@@ -19,11 +19,11 @@ resource "azurerm_app_service" "app" {
   app_service_plan_id = azurerm_app_service_plan.asp.id
 
   site_config {
-    linux_fx_version         = "DOTNETCORE|3.1"
-    remote_debugging_enabled = false
-    remote_debugging_version = "VS2019"
-    http2_enabled            = false
-    always_on                = false
+    linux_fx_version          = "DOTNETCORE|6.0"
+    remote_debugging_enabled  = false
+    http2_enabled             = false
+    always_on                 = false
+    use_32_bit_worker_process = true
   }
 }
 

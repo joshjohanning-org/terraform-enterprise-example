@@ -25,7 +25,6 @@ No modules.
 |------|------|
 | [azurerm_app_service.app](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/app_service) | resource |
 | [azurerm_app_service_plan.asp](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/app_service_plan) | resource |
-| [azurerm_app_service_slot.slotDemo](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/app_service_slot) | resource |
 | [azurerm_resource_group.rg](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/resource_group) | resource |
 | [azurerm_subscription.primary](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/data-sources/subscription) | data source |
 
@@ -33,6 +32,10 @@ No modules.
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
+| <a name="input_ARM_CLIENT_ID"></a> [ARM\_CLIENT\_ID](#input\_ARM\_CLIENT\_ID) | database server name | `any` | n/a | yes |
+| <a name="input_ARM_CLIENT_SECRET"></a> [ARM\_CLIENT\_SECRET](#input\_ARM\_CLIENT\_SECRET) | database server name | `any` | n/a | yes |
+| <a name="input_ARM_SUBSCRIPTION_ID"></a> [ARM\_SUBSCRIPTION\_ID](#input\_ARM\_SUBSCRIPTION\_ID) | database server name | `any` | n/a | yes |
+| <a name="input_ARM_TENANT_ID"></a> [ARM\_TENANT\_ID](#input\_ARM\_TENANT\_ID) | database server name | `any` | n/a | yes |
 | <a name="input_app_service"></a> [app\_service](#input\_app\_service) | The app service to create that uses the app service plan | `any` | n/a | yes |
 | <a name="input_app_service_plan"></a> [app\_service\_plan](#input\_app\_service\_plan) | The app service plan to create | `any` | n/a | yes |
 | <a name="input_app_service_slot"></a> [app\_service\_slot](#input\_app\_service\_slot) | The swap slot to create | `any` | n/a | yes |
