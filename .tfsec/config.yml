@@ -1,0 +1,8 @@
+---
+severity_overrides:
+  AZU006: "WARNING"
+  AZU009: "WARNING"
+  AZU020: "INFO"
+  AZU021: "INFO"
+exclude:
+  - AZU023
