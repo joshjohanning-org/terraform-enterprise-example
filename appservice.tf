@@ -23,7 +23,7 @@ resource "azurerm_app_service" "app" {
     remote_debugging_enabled = false
     remote_debugging_version = "VS2019"
     http2_enabled            = true
-    always_on                = true
+    always_on                = false
   }
 }
 
