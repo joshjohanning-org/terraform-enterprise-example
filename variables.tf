@@ -51,3 +51,19 @@ variable "sql_firewall_rules" {
     }
   }
 }
+
+variable "ARM_TENANT_ID" {
+  description = "database server name"
+}
+
+variable "ARM_SUBSCRIPTION_ID" {
+  description = "database server name"
+}
+
+variable "ARM_CLIENT_ID" {
+  description = "database server name"
+}
+
+variable "ARM_CLIENT_SECRET" {
+  description = "database server name"
+}

@@ -22,7 +22,7 @@ resource "azurerm_app_service" "app" {
     linux_fx_version         = "DOTNETCORE|3.1"
     remote_debugging_enabled = false
     remote_debugging_version = "VS2019"
-    http2_enabled            = true
+    http2_enabled            = false
     always_on                = false
   }
 }
