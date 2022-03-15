@@ -15,3 +15,5 @@ go install github.com/terraform-docs/terraform-docs@v0.16.0
 # tflint
 curl -s https://raw.githubusercontent.com/terraform-linters/tflint/master/install_linux.sh | bash
 tflint --init
+
+# run the above with: pre-commit run -a
